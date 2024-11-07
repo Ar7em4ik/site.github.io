@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(img/Hero\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    width: 99.1vw; 
+    height: 130vh; 
+    border-radius: 50px;
+}
+.logo{
+    justify-content: space-between;
+    margin-left: 150px;
+    padding-top: 10px;
+    display: flex;
+    list-style-type: none;
+}
+.nav{
+    margin-top: 20px;
+    color: rgb(255, 216, 158);
+    list-style-type: none;
+    font-family:  Montserrat;
+    display: flex;
+    gap: 40px;
+    margin-right: 100px;
+}
+.maincontainer{
+    position: absolute;
+    width: 1486.09px;
+    height: 711px;
+    left: 182px;
+    right: 177.91px;
+    top: 274px;
+    bottom: 244px;
+}
+.line{
+    background-color:  rgb(255, 216, 158);
+    width: 207px;
+    height: 1px;
+    margin-top: 60.5px;
+}
+.img {
+    background-image: url(img/almos-bechtold-AJ_Mou1FUS8-unsplash\ 1.png);
+    position: absolute;
+    width: 750px; 
+    height: 580px; 
+    left: 700px; 
+    top: 100px; 
+    background-color: black;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maintext{
+    position: absolute;
+    width: 740px;
+    height: 415px;
+    left: -8px;
+    right: -52px;
+    top: 100px;
+    bottom: 205px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 110px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.minitext{
+    position: absolute;
+    left: 16px;
+    right: 219px;
+    top: 310px;
+    bottom: 33px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.btn{
+    position: absolute;
+    width: 304px;
+    height: 83px;
+    left: 0%;
+    border-radius: 60px;
+    box-shadow: 6px 6px 4px 0px rgb(59, 26, 65);
+    background: linear-gradient(180.00deg, rgb(199, 59, 10) 2.604%,rgb(83, 39, 66) 100%);
+    color: rgb(255, 255, 255);
+    font-family: Montez;
+    font-size: 35px;
+    margin-top: 350px;
+    margin-left: 10px;
+}
+.star1{
+    position: absolute;
+    left: 89.16%;
+    right: 4.18%;
+}
+.star2{
+    position: absolute;
+    left: 59.77%;
+    right: 26.01%;
+    top: 116%;
+}
+.gamburger{
+    display: none;
+    position: absolute;
+    width: 36.75px;
+    height: 36.75px;
+    left: 6.26%;
+    right: 6.26%;
+    top: 6.26%;
+    bottom: 6.26%;
+
+}
+.mobile{
+    display: none;
+}
+@media (max-width: 589px) {
+    .nav{
+        display: none;
+    }
+    .container{
+        width: 589px;
+        height: 1253px;
+        border-radius: 20px;
+    }
+    .logo{
+        display: flex;
+        position: relative;
+        right: 120px;
+        width: 200px;
+        height: 100px;
+    }
+    .gamburger{
+        position: absolute;
+        width: 36.75px;
+        height: 36.75px;
+        left: 6.26%;
+        right: 6.26%;
+        top: 6.26%;
+        bottom: 6.26%;
+    }
+    .maincontainer{
+        position: absolute;
+        width: 473px;
+        height: 248px;
+        left: 48px;
+        right: 47px;
+        top: 415px;
+        bottom: 266px;
+    }
+    .img{
+        position: absolute;
+        width: 400px;
+        height: 300px;
+        left: 55px;
+        top: -300px;
+    }
+    .life{
+        position: absolute;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 90px;
+        right: 225px; 
+    }
+    .mobile{
+        margin-top: 230px;
+        display: flex;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 18px;
+    }
+    .btn{
+        position: absolute;
+        width: 280.62px;
+        height: 80.43px;
+        left: 100px;
+        right: 26.92%;
+        top: 5.16%;
+        bottom: 9.28%;
+    }
+    .minitext{
+        display: none;
+    }
+    .line{
+        position: absolute;
+        left: 150px;
+    }
+    .star1 {
+        display: none;
+    }
+    .star2{
+        display: none;
+    }
+
+}
